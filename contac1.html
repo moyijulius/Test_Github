@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>contact wepage</title>
+        <meta name="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            
+    * { 
+ padding: 0;
+ margin: 0;
+ text-decoration: none;
+list-style: none;
+box-sizing: border-box;
+
+    }
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    }
+    nav{
+        background: #0082e0;
+        height: auto;
+        width: 100%;
+    }
+    label.logo{
+color: white;
+display: inline-block;
+font-size: 25px;
+line-height: 80px;
+margin: 0 5px;
+padding-left: 20px;
+color: ghostwhite;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 900;
+font-size: 35px;
+
+}
+nav ul{
+  float: right;
+  margin-right: 20px;  
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+
+    }
+    nav ul li a{
+        color: white;
+        font-size: 17px;
+        padding: 7px 13px;
+        border-radius: 3px;
+        text-transform: uppercase;
+
+    }
+    a.active,a:hover{
+        background: #1b9bff;
+        transition: .5s;
+    }
+    .checkbtn{
+        font-weight: 30px;
+        float: right;
+        color: white;
+        line-height: 80px;
+        margin-right: 40px;
+        cursor: pointer;
+        display: none;
+        
+    }
+    #check{
+        display: none;
+    }
+    @media(max-width:952px) {
+        lable .logo{
+            font-size: 20px;
+            padding-left: 20px;
+        }
+        nav li ul a{font-size: 16px;}
+    }
+   @media (max-width: 858px){
+        .checkbtn{
+            display: block;
+        }
+    .logo{
+        font-size: 15px;
+    }
+    
+ul{
+    /***position: fixed;***/
+    width: 100%;
+    height: 15vh;
+    background: #2c3e50;
+    top: 30px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+}
+nav ul li{
+    display: inline-block;
+    margin: 20px 0;
+    line-height: 5px;
+    block-size: 20px;
+}
+nav ul li a{
+    font-size: 20px;
+}
+a:hover,a.active{
+    background: none;
+    color: #0082e6;
+}
+#check:checked ~ ul{
+    left: 0;
+}
+   }
+            section{
+                width: 100%;
+                text-align: center;
+                color: white;
+                height: auto;
+                background-color: blueviolet;
+                line-height: 35px;
+        
+            }
+            a{
+                text-decoration: none;
+                color: chartreuse;
+
+            }
+            body{
+            background-color: burlywood;
+            }
+            h1{
+                padding-top: 10px;
+                color: red;
+            }
+            @media(max-width:767px){
+                section{
+                    text-align: left;
+                    padding-left: 10px;
+                }
+            }
+
+        </style>
+    </head>
+    <body>
+        <nav>
+            <label class="logo">QUEEN OF SHEBA HOTEL<br>
+            
+            </label>
+            <ul>
+               
+                <li><a  class="active" href="alex.html">home</a></li>
+                <li><a href="about1.html">about</a></li>
+                <li><a href="contac1.html">contacts</a></li>
+                <li><a href="services.html">services</a></li>
+                        
+            </ul>
+            </nav>
+        <section>
+        <h1>CONTACT US!</h1>
+        <H3>KENYA</H3>
+        <DIV>PHONE NO1:0796694963</DIV>
+        <DIV>PHONE NO2:0796577463</DIV>
+        <di>Email: <a href="mailto:moyijulius17@gmail.com">moyijulius17@gmail.com</a></di>
+        <p>service hours:10:am~6:00pm-monday to fiday</p>
+        <p> customer support is available free of charge. Connection charges can vary when calling from outside the area, abroad or from a mobile phone, depending on your specific phone plan.
+        </p>
+        <br>
+    <label for="fname">First Name:</label>
+    <input type="text" id="fname" name="fname"><br><br>
+    <label for="lname">Last Name:</label>
+    <input type="text" id="lname" name="lname"><br><br>
+    <label for="lname">Phone No:</label>
+    <input type="text" id="phone" name="phone" value="phone number"><br><br>
+    <label>Age:</label>
+    <input type="number"><br><br>
+    <lable for="email">EMAIL::</lable>
+<input type="email" id="email" name="email"><br>
+    <input type="radio" id="female" name="my_gender" value="female">
+<lable for="female">Female</lable>
+<input type="radio" id="male" name="my_gender" value="male">
+<lable for="male">Male</lable><br>
+<lable for="descriptio" id="description">Describe your issue:</lable><br>
+<textarea rows="3" cols="30"></textarea><br>
+<input type="submit" value="submit">
+<input type="Reset">
+
+    </section>
+    </body>
+    </body>
+</html>

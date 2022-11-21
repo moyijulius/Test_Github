@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        
+    * { 
+ padding: 0;
+ margin: 0;
+ text-decoration: none;
+list-style: none;
+box-sizing: border-box;
+
+    }
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    }
+    nav{
+        background: #0082e0;
+        height: auto;
+        width: 100%;
+       /**position: fixed;***/
+    }
+    label.logo{
+color: white;
+display: inline-block;
+font-size: 25px;
+line-height: 80px;
+margin: 0 5px;
+padding-left: 20px;
+color: ghostwhite;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 900;
+font-size: 35px;
+
+}
+nav ul{
+  float: right;
+  margin-right: 20px;  
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+
+    }
+    nav ul li a{
+        color: white;
+        font-size: 17px;
+        padding: 7px 13px;
+        border-radius: 3px;
+        text-transform: uppercase;
+
+    }
+    a.active,a:hover{
+        background: #1b9bff;
+        transition: .5s;
+    }
+    .checkbtn{
+        font-weight: 30px;
+        float: right;
+        color: white;
+        line-height: 80px;
+        margin-right: 40px;
+        cursor: pointer;
+        display: none;
+        
+    }
+    #check{
+        display: none;
+    }
+    @media(max-width:952px) {
+        lable .logo{
+            font-size: 20px;
+            padding-left: 20px;
+        }
+        nav li ul a{font-size: 16px;}
+    }
+   @media (max-width: 858px){
+        .checkbtn{
+            display: block;
+        }
+    .logo{
+        font-size: 15px;
+    }
+    
+ul{
+    /***position: fixed;***/
+    width: 100%;
+    height: 15vh;
+    background: #2c3e50;
+    top: 30px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s
+}
+nav ul li{
+    display: inline-block;
+    margin: 20px 0;
+    line-height: 5px;
+    block-size: 20px;
+}
+nav ul li a{
+    font-size: 20px;
+}
+a:hover,a.active{
+    background: none;
+    color: #0082e6;
+}
+#check:checked ~ ul{
+    left: 0;
+}
+    }
+    /***.image-section{
+        width: 100%;
+        padding-right: 20px;
+        padding-left: 20px;
+        background-color: cyan;
+        
+    }**/
+    #nik{
+        height: 300px; 
+        border-left: 1px solid black;
+        left: 600px;
+        position: absolute;
+        padding-left: 20px;
+        margin-top: 20px;
+    }
+    .menu3{
+        width: 50%;
+        height: auto;
+        border: 1px solid black;
+        padding-left: 30px;
+        color: white;
+        background-color: black;
+        margin-top: 40px;
+        margin-bottom: 0;
+        position: absolute;
+        margin-left: 350px;
+        padding-top: 20px;
+        font-style: italic;
+        font-weight: 900;
+       
+
+    }
+    .index{
+        width: 300px;
+        height: 210px;
+        border-radius: 50%;
+        float: right;
+        padding-right: 20px;
+
+    }
+    .index2{
+        width: 300px;
+        height: 210px;
+        border-radius: 50%;
+        float: right;
+        padding-right: 20px;  
+    }
+    .index3{
+        width: 290px;
+        height: 200px;
+        border-radius: 50%;
+        float: right;
+        padding-right: 20px; 
+    }
+    .index4{
+        width: 270px;
+        height: 160px;
+        border-radius: 50%;
+        float: right;
+        padding-right: 10px;
+    }
+    .index5{
+        width: 270px;
+        height: 160px;
+        border-radius: 50%;
+        float: right;
+        padding-right: 10px;
+        padding-bottom: 20px;
+    }
+    h2{
+        text-align: center;
+        font-weight: 900;
+        font-family: Arial, Helvetica, sans-serif;
+        color: red;
+    }
+    @media(max-width:767px){
+        .menu3{margin-left: 0;
+            width: 100%;
+            height: auto;
+        
+        }
+    
+    }
+    @media(max-width:1199px){
+        .index,.index2,.index3,.index4,.index5{
+            display: none;
+        }
+    }
+    body{
+        background-image: url('jng.jpg');
+    }
+    h1{
+        color: red;
+        text-align: center;
+        padding-top: 20px;
+    }
+    </style>
+
+<title> sheba menu page</title>
+
+<head>
+</body>
+</label>
+    <nav>
+<label class="logo">QUEEN OF SHEBA HOTEL<br>
+
+</label>
+<ul>
+   
+    <li><a  class="active" href="alex.html">home</a></li>
+    <li><a href="about1.html">about</a></li>
+    <li><a href="contac1.html">contacts</a></li>
+    <li><a href="services.html">services</a></li>
+</ul>
+</nav>
+<H1>MENU</H1>
+<hr>
+<div class="menu3">
+    <h2>MEALS</h2><br>
+    <hr><br>
+    steak & cheese   ----------------ksh240/=<br><br>
+    <img src="C:\Users\user\Documents\ms word\fd1.jpg" class="index">
+    mushroom & cheese----------------ksh190/=<br><br>
+   bacon & chees     ----------------ksh400/=<br><br>
+    ham & cheese---------------------ksh350/=<br><br>
+    cheese---------------------------ksh200/=<br><br>
+    feta, tomato,onion---------------ksh300/=<br><br>
+    bacon and tomato-----------------ksh450/=<br><br>
+    greek feta, tomato,spinach-------ksh300/=<br><br>
+    <img src="C:\Users\user\Documents\ms word\special1.jpg" class="index3">
+    ugali and mix of beef --------ksh320/=<br><br>
+    ugali ana plain beeef---------------ksh300/=<br><br>
+    beef and chapo-------------------ksh250/=<br><br>
+    rice and beef------------------ksh400/=<br><br>
+    beef and pilau-----------------ksh200/=<br><br>
+    pilau plain-------------------ksh150/=<br><br>
+    <img src="C:\Users\user\Documents\ms word\fd3.jpg" class="index2">
+    rice plain-----------------ksh80/=<br><br>
+    ugali and matumbo----------ksh230/=<br><br>
+    chapati and ndegu----------ksh170/=<br><br>
+    maziwa and ugali-----------ksh170/=<br><br>
+    Fried eggs----------------@ksh40/=<br><br>
+    Fried Beef-------------------ksh160/=<br><br>
+    Puncake-----------------------ksh190/=<br><br>
+    <h2>BEVERAGES</h2><br>
+    <hr>
+    <br>
+    A cup of tea------------------------ksh50/=<br><br>
+    <img src="C:\Users\user\Documents\ms word\drinks1.jpg" class="index4">
+    a cup of coffee---------------------ksh70/=<br><br>
+    Iced coffee/tea-------------------ks140/=<br><br>
+    Hot chocolate----------------------ksh210/=<br><br>
+    Juice------------------------------ksh130/=<br><br>
+    milk-----------------------------ksh70/=<br><br>
+    flavored milk-------------------ksh80/=<br><br>
+    <img src="C:\Users\user\Documents\ms word\fd3.jpg" class="index5">
+    soda 500ml----------------------ksh100/=<br><br>
+    Queen Cake------------------ksh20/=<br><br>
+
+</div>
+</body>
+</html>
